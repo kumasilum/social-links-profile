@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "inter";
+  src: url("social-links-profile-main\assets\fonts\Inter-VariableFont_slnt,wght.ttf")
+    format("ttf");
+}
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: hsl(0, 0%, 8%);
+  justify-items: center;
+  align-content: center;
+  padding: 60 auto 60 auto;
+}
+* {
+  font-size: 14px;
+  font-family: "inter", Arial, sans-serif;
+}
+p {
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  margin: 0;
+  font-size: 14px;
+}
+
+a {
+  color: hsl(75, 94%, 57%);
+  text-decoration: none;
+}
+a:hover {
+  color: hsl(75, 50%, 57%);
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+.name {
+  font-weight: 700;
+  font-size: x-large;
+}
+.location {
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+  font-size: small;
+}
+.about {
+  color: hsl(0, 0%, 80%);
+  margin-top: 10px;
+  font-size: smaller;
+}
+.btn {
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  align-content: center;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: small;
+}
+.btn:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+}
+.avatar {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 25px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  background-color: hsl(0, 0%, 12%);
+  align-items: stretch;
+  border-radius: 10px;
+  gap: 10px;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+.attribution {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
