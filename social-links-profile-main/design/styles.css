@@ -74,8 +74,8 @@ a:hover {
 .card {
   display: flex;
   flex-direction: column;
-  min-width: 300px;
-  max-width: 400px;
+  min-width: 320;
+  max-width: 420;
   background-color: hsl(0, 0%, 12%);
   align-items: stretch;
   border-radius: 10px;
